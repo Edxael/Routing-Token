@@ -1,0 +1,123 @@
+/* ===[ MAIN.JSX ]======================================= */
+
+body{
+    background-color: rgb(127, 246, 255);
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.MainContainer{
+    background-color: rgba(254, 254, 254, 0.782);
+    border: 7px solid white;
+    padding: 15px 50px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px; 
+}
+
+.menu1{
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton{
+    margin: 2px;
+    padding: 3px 6px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px; 
+    background-color: rgba(173, 146, 247, 0.775);
+}
+
+.menuButton:hover{
+    background-color: rgb(127, 246, 255);
+}
+
+
+
+.BannerFrame{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.BannerImg{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+
+/* ===[ Home.JSX ]======================================= */
+
+
+
+
+/* ===[ List.JSX ]======================================= */
+
+
+
+
+
+/* ===[ Template.JSX ]======================================= */
+.Template-Main-Cont{
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(137, 43, 226, 0.459);
+    width: 50%;
+    margin: 7px auto;
+}
+
+.Img-Container{
+    height: 100px;;
+}
+
+.Pic-Style{
+    height: 100%;
+    width: auto;
+}
+
+.Movie-Text-Main-Container{
+    text-align: left;
+    padding: 15px;
+}
+
+.Link-Button{
+    border: 1px solid black;
+    padding: 2px 4px; 
+    text-decoration: none;
+    background-color: rgb(252, 209, 157);
+    box-shadow: 3px 3px 3px #888888;
+}
+
+.Link-Button:hover{
+    background-color: rgb(250, 244, 237);
+}
+
+
+
+/* ===[ UniPage.JSX ]======================================= */
+.UNI-Template-Main-Cont{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(137, 43, 226, 0.459);
+    width: 50%;
+    margin: 7px auto;
+}
+
+.UNI-Img-Container{
+    height: 400px;
+}
+
+.UNI-Pic-Style{
+    height: 100%;
+    width: auto;
+    margin: 10px 0px;
+}
+
+.UNI-Movie-Text-Main-Container{
+    width: 45%;
+    margin: 0px auto;
+    text-align: left;
+    padding: 15px;
+}
